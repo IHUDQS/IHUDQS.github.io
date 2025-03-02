@@ -1,31 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Huda Quadri - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Huda Quadri - Resume</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #e6e6e6;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center;
+            overflow-y: auto; /* Enables scrolling */
+            padding: 10px;
+            padding-left:18%;
+        }
+        .container {
+            width: 80%;
+            max-width: 900px;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            margin-top: 20px;
+            text-align: center;
+            min-height: 90vh; /* Ensures it takes at least 90% of the screen height */
+        }
+        h1, h2 {
+            color: #4e8fd5;
+        }
+        h1 {
+            font-size: 2.8em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-top: 30px;
+            color: #8fd7ff;
+        }
+        .contact a {
+            color: #8fd7ff;
+            text-decoration: none;
+        }
+        .summary p {
+            font-style: italic;
+            color: #b3b3b3;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            margin: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .skills ul, .certifications ul, .languages ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center; /* Centers the list items horizontally */
+            margin: 0 auto; /* Centers the container */
+            padding: 0;
+        }
+        .skills ul li, .certifications ul li, .languages ul li {
+            background-color: #4e8fd5;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 1em;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+        .experience-title {
+            font-weight: bold;
+            color: #8fd7ff;
+        }
+        .experience-duration {
+            font-style: italic;
+            color: #b3b3b3;
+        }
+        .contact {
+            font-size: 1.2em;
+            color: #b3b3b3;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Huda Quadri</h1>
-    <p>Cybersecurity Professional</p>
-  </header>
-  <section>
-    <h2>About Me</h2>
-    <p>A dedicated US citizen, hardworking and highly motivated professional with a robust background in cybersecurity.</p>
-  </section>
-  <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>Project Management</li>
-      <li>Critical Thinking</li>
-      <!-- Add more skills -->
-    </ul>
-  </section>
-  <!-- Add more sections like Projects, Certifications, etc. -->
-  <footer>
-    <p>Contact: <a href="mailto:hudzquadri1@gmail.com">hudzquadri1@gmail.com</a></p>
-  </footer>
+
+    <div class="container">
+        <h1>Huda Quadri</h1>
+        <p class="contact">Email: <a href="mailto:hudzquadri1@gmail.com">hudzquadri1@gmail.com</a> | LinkedIn: <a href="https://www.linkedin.com/in/huda-quadri-075035137">linkedin.com/in/huda-quadri-075035137</a> | GitHub: <a href="https://github.com/IHUDQS">github.com/IHUDQS</a></p>
+        
+        <div class="summary">
+            <h2>Professional Summary</h2>
+            <p>US Citizen | Highly motivated professional with a strong work ethic, adept at both independent work and collaborative team efforts, with a passion for safeguarding digital assets and mitigating cyber threats. Proficient in threat detection, incident response, and collaborating effectively in cross-functional teams. Eager to contribute to organizational security while gaining practical experience in a dynamic internship role.</p>
+        </div>
+        
+        <div class="education">
+            <h2>Education</h2>
+            <p><strong>Bachelor of Science (B.S.) in Information Systems (Cybersecurity) Candidate</strong></p>
+            <p>Prince Sultan University, KSA</p>
+            <p>Expected Graduation: Summer 2025</p>
+        </div>
+
+        <div class="work-experience">
+            <h2>Work Experience</h2>
+            <div>
+                <p class="experience-title">Intern (Smart Management Solutions)</p>
+                <p class="experience-duration">Dec 2024 - July 2025 | Riyadh, KSA</p>
+                <p>As an intern, I gained hands-on experience with cybersecurity tools and processes, contributing to research, evaluating security tools, and applying practical knowledge in real-world scenarios to mitigate risks.</p>
+            </div>
+            <div>
+                <p class="experience-title">Summer Intern (Jtech Enterprise Corp)</p>
+                <p class="experience-duration">June 2024 - Aug 2024 | Chicago, USA</p>
+                <p>Worked on backend tasks including analyzing security threats and collaborating with teams to mitigate risks. Gained hands-on experience with cybersecurity tools like Kali Linux, Burp Suite, Metasploit, and more.</p>
+            </div>
+        </div>
+
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Project & Time Management</li>
+                <li>Collaboration</li>
+                <li>Critical Thinking & Problem Solving</li>
+                <li>Web Development (Full-Stack)</li>
+                <li>Scripting & Exploits (USB exploits)</li>
+                <li>Version Control (Git)</li>
+                <li>Network & Security Tools (Wireshark, Cisco)</li>
+            </ul>
+        </div>
+
+        <div class="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>(ISC)² Systems Security Certified Practitioner (SSCP)</li>
+                <li>Agile Meets Design Thinking</li>
+                <li>Introduction to MongoDB</li>
+                <li>Certified Ethical Hacker (In Progress)</li>
+                <li>CompTIA Security+ (In Progress)</li>
+            </ul>
+        </div>
+
+        <div class="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>English</li>
+                <li>Urdu</li>
+                <li>Hindi</li>
+            </ul>
+        </div>
+    </div>
+
 </body>
 </html>
+
